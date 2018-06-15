@@ -11,9 +11,9 @@ def words_five_letters_long(text)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-  "was it Peaceful?".scan(^capitalized...punctuation?$)
+  "Was it Peaceful? It was, out in the open field.".scan(^capitalized...punctuation?$)
 end
 
 def valid_phone_number?(phone)
-  "888-555-1111"numbers.scan(\d)
+  ["888-555-1111", "(786) 888-1234", "8673451234"]numbers.scan(\d)
 end
