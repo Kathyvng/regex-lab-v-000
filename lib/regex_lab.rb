@@ -15,5 +15,5 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-  "888-555-1111"match.scan(\d)
+  "888-555-1111"numbers.scan(\d)
 end
